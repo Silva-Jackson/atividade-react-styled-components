@@ -6,18 +6,17 @@ export type TextProps = {
 };
 export const TextCard = styled.div`
     width: 50%;
-    height: 50%;
     background-color: #fff;
 `;
 export const Title = styled.h1`
-    padding: 5rem 5rem 0;
+    padding: 4rem 3em 0;
     font-size: 2rem;
     margin: 0 0 1rem;
 `;
 
 export const Paragraph = styled.p`
-    font-size: 1.3em;
-    padding: 0 5rem 5rem;
+    font-size: 1.2em;
+    padding: 0 5em;
     margin: 0;
 `;
 

@@ -1,25 +1,21 @@
 import styled from "styled-components";
+import { Gradient, Wrapper } from "../TopBanner";
 
 const Title = styled.h1`
+    width: 100%;
+    padding: 3em 0;
     font-size: 2em;
     text-align: center;
     color: white;
     font-family: sans-serif;
 `;
 
-const Wrapper = styled.section`
-    width: 100%;
-    padding: 8em 0;
-    background: #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
 function BottomBanner() {
     return (
         <Wrapper>
-            <Title>Minha primeira página com React</Title>
+            <Gradient>
+                <Title>Contato</Title>
+            </Gradient>
         </Wrapper>
     );
 }

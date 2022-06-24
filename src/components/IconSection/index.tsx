@@ -20,6 +20,7 @@ const CheckIcon = styled(CheckCircle)`
 `;
 
 const Wrapper = styled.section`
+    width: 100%;
     padding: 8em 0;
     display: flex;
     justify-content: center;
