@@ -16,7 +16,6 @@ const StyledUl = styled.ul`
 
 const StyledLi = styled.li`
     display: inline;
-    color: #555;
     font-size: 0.8em;
 `;
 
@@ -29,7 +28,6 @@ const StyledLink = styled.a`
 `;
 
 const StyledP = styled.p`
-    color: #555;
     padding-left: 1rem;
 `;
 

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Title = styled.h1`
-    padding: 6em 0;
+    padding: 4em 0;
     font-size: 2em;
     text-align: center;
     color: white;
@@ -18,7 +18,7 @@ export const Gradient = styled.div`
 
 export const Wrapper = styled.section`
     width: 100%;
-    background-image: url(https://imagizer.imageshack.com/img922/1324/oiUz4K.jpg);
+    background-image: url("https://imagizer.imageshack.com/img922/1324/oiUz4K.jpg");
     background-size: cover;
 `;
 

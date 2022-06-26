@@ -22,7 +22,8 @@ const InstagramIcon = styled(Instagram)`
 `;
 
 const IconDiv = styled.div`
-    width: 100%;
+    width: 50%;
+    padding-left: 5em;
     display: flex;
     justify-content: center;
     align-items: center;

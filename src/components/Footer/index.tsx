@@ -4,7 +4,6 @@ import FooterList from "../FooterList";
 
 const StyledSection = styled.section`
     width: 100%;
-    background: #eee;
     display: flex;
     justify-content: space-around;
 `;
